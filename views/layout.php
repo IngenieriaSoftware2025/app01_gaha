@@ -31,7 +31,7 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item mx-1">
                         <a class="nav-link active rounded-pill px-3 py-2 fw-bold bg-success bg-opacity-25" aria-current="page" href="/app01_gaha/productos">
-                            <i class="bi bi-people-fill me-1"></i> USUARIOS
+                            <i class="bi bi-people-fill me-1"></i> PRODUCTOS
                         </a>
                     </li>
                     <li class="nav-item mx-1">

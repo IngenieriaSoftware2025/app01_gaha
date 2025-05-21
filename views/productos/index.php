@@ -4,9 +4,8 @@
             <div class="card shadow-lg border-0 rounded-4">
                 <div class="card-body" style="background: linear-gradient(45deg, #212529, #495057);">
                     <div class="mb-4 text-center">
-                        <h5 class="fw-bold text-warning mb-2">¡Bienvenido a la Aplicación para gestionar una lista de compras
-                            de forma organizada!</h5>
-                        <h3 class="fw-bold text-white mb-0">Listado de Compras</h3>
+                        <h5 class="fw-bold text-warning mb-2">Administra tu lista de compras semanal de manera eficiente.</h5>
+                        <h3 class="fw-bold text-white mb-0">Ir a mi Lista de Compras</h3>
                     </div>
                     <form id="FormUsuarios" class="p-4 bg-dark bg-opacity-75 rounded-3 shadow-sm border border-secondary">
                         <input type="hidden" id="producto_id" name="producto_id">
@@ -24,6 +23,7 @@
 
                         </div>
 
+                        <div class="row g-4 mb-3"> 
                         <div class="col-md-6">
                             <label for="producto_categoria" class="form-label text-white"></label>
                             <select name="producto_categoria" class="form-select form-select-lg bg-dark bg-opacity-50 text-white border-secondary" id="producto_categoria">
@@ -42,6 +42,7 @@
                                 <option value="M">Mediana</option>
                                 <option value="B">Baja</option>
                             </select>
+                        </div>
                         </div>
 
                         <div class="d-flex justify-content-center gap-3">
@@ -75,11 +76,12 @@
         </div>
     </div>
 </div>
-<!-- Bootstrap Icons CDN (opcional, para los íconos de los botones) -->
+
+<!-- Bootstrap Icons CD los botones -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <script src="<?= asset('build/js/productos/index.js') ?>"></script>
 
-<!-- Estilo para los placeholders blancos -->
+
 <style>
     .form-control::placeholder,
     .form-select::placeholder {
