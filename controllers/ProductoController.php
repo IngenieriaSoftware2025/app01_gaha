@@ -7,7 +7,7 @@ use Model\ActiveRecord;
 use Model\Usuarios;
 use MVC\Router;
 
-class UsuarioController extends ActiveRecord
+class ProductoController extends ActiveRecord
 {
 
     public function renderizarPagina(Router $router)
